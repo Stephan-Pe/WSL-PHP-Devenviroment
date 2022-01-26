@@ -24,7 +24,7 @@ You will see then something like this: ```c wsl```
 
 To link your folder you have to type ```ln -s /mnt/c/MyFolder MyFolder```
 
-If you type: ```ll``` you will see somethin like this (user represents your username):
+If you type: ```ll``` you will see something like this (user represents your username):
 
 ```
 drwxr-xr-x  5 user user  4096 Jan  4 19:55 .vscode-server/
@@ -33,7 +33,7 @@ lrwxrwxrwx  1 user user    15 Jan 20 15:14 MyFolder -> /mnt/c/MyFolder/
 -rw-r--r--  1 user user    63 Jan 20 16:53 composer.json
 -rw-r--r--  1 user user 21696 Jan 20 16:53 composer.lock
 ```
-You can see that your folder is now liked to the c drive
+You can see that your folder is now linked to the c drive
 
 4. To enable Apache to serve from this folder first you have to enable userdir for Apache
 - ``` sudo a2enmod userdir```
@@ -42,7 +42,7 @@ You can see that your folder is now liked to the c drive
 6. Now you have to edit the userdir.conf file, so that apache finds the folder you just created
 - ``` sudo vi /etc/apache2/mods-available/userdir.conf```
 
-It wii look like this:
+It will look like this:
 
 
 ```
