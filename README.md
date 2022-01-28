@@ -2,7 +2,7 @@
 
 1. Install Apache webserver
 
-```sudo apt-get apache2```
+```sudo apt install apache2```
 
 2. Install PHP
 -  ```sudo add-apt-repository ppa:ondrej/php```
